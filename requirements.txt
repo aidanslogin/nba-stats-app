@@ -1,1 +1,2 @@
 streamlit
+nba_api
