@@ -1,2 +1,2 @@
 streamlit
-nba_api
+nba-api
