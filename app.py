@@ -6,53 +6,66 @@ import time
 # Import stats functions from stats module
 from stats import get_player_stats, get_team_offense_stats, get_team_defense_stats
 
-# Load static data from NBA API
-from nba_api.stats.static import players, teams
+# Import from cached data modules
+from data.teams import get_all_teams, get_cache_timestamp as get_teams_timestamp, get_cache_season
+from data.players import get_all_players, get_cache_timestamp as get_players_timestamp
 
 st.set_page_config(page_title="NBA Stats Analyzer", page_icon="🏀", layout="wide")
 
 st.title("🏀 NBA Stats Analyzer")
 
-# Load static data
-all_players = players.get_active_players()
-all_teams = teams.get_teams()
+# Load data from cached modules
+all_players = get_all_players()
+all_teams = get_all_teams()
 
-# Rest of your code stays the same...
+# Hardcoded season
+season = "2025-26"
 
-
-# Sidebar
-st.sidebar.header("⚙️ Settings")
-season = st.sidebar.selectbox(
-    "Select Season",
-    ['2025-26', '2024-25', '2023-24', '2022-23'],
-    index=2  # Default to 2023-24
-)
-
-st.sidebar.info(f"**Current Season:** {season}")
+# Display cache status in sidebar
+with st.sidebar:
+    st.header("📊 Data Status")
+    
+    teams_updated = get_teams_timestamp()
+    st.info(f"**Teams Cache:**\n{teams_updated}")
+    
+    players_updated = get_players_timestamp()
+    st.info(f"**Players Cache:**\n{players_updated}")
+    
+    current_season = get_cache_season()
+    st.metric("Season", current_season)
+    
+    st.metric("Teams Loaded", len(all_teams))
+    st.metric("Players Loaded", len(all_players))
+    
+    st.markdown("---")
+    st.caption("Data is cached and refreshed daily at 3 AM")
 
 # Tabs
 tab1, tab2, tab3 = st.tabs(["👤 Player Stats", "⚔️ Team Offense", "🛡️ Team Defense"])
+
+player_data = None
 
 # TAB 1: PLAYER STATS
 with tab1:
     st.header(f"👤 Player Offensive Stats - {season}")
     
-    player_names = sorted([p['full_name'] for p in all_players])
-    selected_player_name = st.selectbox("Select Player", player_names, key="player_select")
+    player_names = ["Find Player"] + sorted([p['DISPLAY_FIRST_LAST'] for p in all_players])
+    selected_player_name = st.selectbox("Find Player", player_names, key="player_select")
     
-    selected_player = [p for p in all_players if p['full_name'] == selected_player_name][0]
-    player_id = str(selected_player['id'])
-    
-    if st.button("Get Player Stats", key="player_button"):
-        with st.spinner(f"Loading player data for {season}..."):
-            player_data = get_player_stats(player_id, season)
-            time.sleep(0.6)
+    if selected_player_name != "Find Player":
+        selected_player = [p for p in all_players if p['DISPLAY_FIRST_LAST'] == selected_player_name][0]
+        player_id = str(selected_player['PERSON_ID'])
         
+        if st.button("Get Player Stats", key="player_button"):
+            with st.spinner(f"Loading player data for {season}..."):
+                player_data = get_player_stats(player_id, season)
+                time.sleep(0.6)
+
         if player_data:
             col1, col2 = st.columns(2)
             
             with col1:
-                st.subheader(f"📊 {season} Season Averages")
+                st.subheader("📊 Season Average")
                 st.metric("Games Played", player_data['season']['games'])
                 st.metric("Points Per Game", f"{player_data['season']['ppg']:.1f}")
                 st.metric("Rebounds", f"{player_data['season']['rpg']:.1f}")
@@ -61,8 +74,8 @@ with tab1:
                 st.metric("FG%", f"{player_data['season']['fg_pct']:.1%}")
             
             with col2:
-                st.subheader("🔥 Trimmed Last 7 Games")
-                st.info("Removes highest and lowest game from last 7")
+                st.subheader("🔥 Recent Form")
+                st.info("Season average (game logs not cached)")
                 
                 trend_ppg = player_data['trimmed_7']['ppg'] - player_data['season']['ppg']
                 st.metric("Points Per Game", f"{player_data['trimmed_7']['ppg']:.1f}", f"{trend_ppg:+.1f}")
@@ -75,18 +88,16 @@ with tab1:
             
             st.markdown("---")
             st.dataframe(player_data['last_7_games'], use_container_width=True)
-        else:
-            st.error(f"❌ No data available for {selected_player_name} in {season}.")
-
+            
 # TAB 2: TEAM OFFENSE
 with tab2:
     st.header(f"⚔️ Team Offensive Stats - {season}")
     
-    team_names = sorted([t['full_name'] for t in all_teams])
+    team_names = sorted([t['TEAM_NAME'] for t in all_teams])
     selected_team_name = st.selectbox("Select Team", team_names, key="offense_select")
     
-    selected_team = [t for t in all_teams if t['full_name'] == selected_team_name][0]
-    team_id = str(selected_team['id'])
+    selected_team = [t for t in all_teams if t['TEAM_NAME'] == selected_team_name][0]
+    team_id = str(selected_team['TEAM_ID'])
     
     if st.button("Get Team Offense", key="offense_button"):
         with st.spinner(f"Loading team offense data for {season}..."):
@@ -112,18 +123,16 @@ with tab2:
             
             st.markdown("---")
             st.dataframe(team_data['last_7_games'], use_container_width=True)
-        else:
-            st.error(f"❌ No data available for {selected_team_name} in {season}.")
 
 # TAB 3: TEAM DEFENSE
 with tab3:
     st.header(f"🛡️ Team Defensive Stats - {season}")
     
-    team_names = sorted([t['full_name'] for t in all_teams])
+    team_names = sorted([t['TEAM_NAME'] for t in all_teams])
     selected_team_name_def = st.selectbox("Select Team", team_names, key="defense_select")
     
-    selected_team_def = [t for t in all_teams if t['full_name'] == selected_team_name_def][0]
-    team_id_def = str(selected_team_def['id'])
+    selected_team_def = [t for t in all_teams if t['TEAM_NAME'] == selected_team_name_def][0]
+    team_id_def = str(selected_team_def['TEAM_ID'])
     
     if st.button("Get Team Defense", key="defense_button"):
         with st.spinner(f"Loading team defense data for {season}..."):
@@ -146,8 +155,7 @@ with tab3:
             
             st.markdown("---")
             st.dataframe(defense_data['last_7_games'], use_container_width=True)
-        else:
-            st.error(f"❌ No data available for {selected_team_name_def} in {season}.")
 
+# Footer
 st.markdown("---")
-st.caption(f"🏀 {season} NBA Season | Built with NBA API")
+st.caption("Powered by Young Bull Analytics")
