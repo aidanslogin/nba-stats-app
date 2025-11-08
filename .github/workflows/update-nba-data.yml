@@ -27,9 +27,14 @@ jobs:
         run: |
           python scripts/fetch_nba_data.py
       
-      - name: Commit and push if changed
+            - name: Commit and push if changed
         run: |
           git config --global user.name 'GitHub Actions Bot'
           git config --global user.email 'actions@github.com'
-          git add cached_data/
-          git diff --quiet && git diff --staged --quiet || (git commit -m "chore: Update NBA data cache [$(date +'%Y-%m-%d')]" && git push)
+          git add cached_data/ logs/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: Update NBA data cache [$(date +'%Y-%m-%d')]"
+            git push
+          fi
