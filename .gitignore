@@ -1,5 +1,6 @@
-# Cache directories - too large for GitHub
-cached_data/
+# Remove cached_data from .gitignore
+cat > .gitignore << 'EOF'
+# Logs only (we'll keep cached_data for cloud deployment)
 logs/
 
 # Python
@@ -20,3 +21,4 @@ venv/
 # OS
 .DS_Store
 .env
+EOF

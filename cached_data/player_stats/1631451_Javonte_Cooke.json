@@ -1,0 +1,48 @@
+{
+  "last_updated": "2025-11-05T22:43:44.751396",
+  "player_id": 1631451,
+  "player_name": "Javonte Cooke",
+  "season": "2025-26",
+  "data": {
+    "SeasonTotalsRegularSeason": [],
+    "CareerTotalsRegularSeason": [],
+    "SeasonTotalsPostSeason": [],
+    "CareerTotalsPostSeason": [],
+    "SeasonTotalsAllStarSeason": [],
+    "CareerTotalsAllStarSeason": [],
+    "SeasonTotalsCollegeSeason": [],
+    "CareerTotalsCollegeSeason": [],
+    "SeasonTotalsShowcaseSeason": [],
+    "CareerTotalsShowcaseSeason": [],
+    "SeasonRankingsRegularSeason": [],
+    "SeasonRankingsPostSeason": [],
+    "SeasonHighs": [
+      {
+        "PLAYER_ID": 1631451,
+        "GAME_DATE": "",
+        "VS_TEAM_ID": 0,
+        "VS_TEAM_CITY": "",
+        "VS_TEAM_NAME": "",
+        "VS_TEAM_ABBREVIATION": "",
+        "STAT": "",
+        "STATS_VALUE": 0,
+        "STAT_ORDER": 0,
+        "DATE_EST": ""
+      }
+    ],
+    "CareerHighs": [
+      {
+        "PLAYER_ID": 1631451,
+        "GAME_DATE": "",
+        "VS_TEAM_ID": 0,
+        "VS_TEAM_CITY": "",
+        "VS_TEAM_NAME": "",
+        "VS_TEAM_ABBREVIATION": "",
+        "STAT": "",
+        "STATS_VALUE": 0,
+        "STAT_ORDER": 0,
+        "DATE_EST": ""
+      }
+    ]
+  }
+}
