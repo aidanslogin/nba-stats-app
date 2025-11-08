@@ -1,2 +1,4 @@
 streamlit
 nba-api
+pandas
+numpy
