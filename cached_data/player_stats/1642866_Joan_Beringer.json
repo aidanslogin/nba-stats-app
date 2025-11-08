@@ -1,5 +1,5 @@
 {
-  "last_updated": "2025-11-05T22:42:42.126047",
+  "last_updated": "2025-11-07T20:56:55.308391",
   "player_id": 1642866,
   "player_name": "Joan Beringer",
   "season": "2025-26",
@@ -12,12 +12,12 @@
         "TEAM_ID": 1610612750,
         "TEAM_ABBREVIATION": "MIN",
         "PLAYER_AGE": 18.0,
-        "GP": 4,
+        "GP": 5,
         "GS": 0,
-        "MIN": 11,
-        "FGM": 1,
-        "FGA": 2,
-        "FG_PCT": 0.5,
+        "MIN": 15,
+        "FGM": 2,
+        "FGA": 3,
+        "FG_PCT": 0.667,
         "FG3M": 0,
         "FG3A": 0,
         "FG3_PCT": 0.0,
@@ -32,7 +32,7 @@
         "BLK": 0,
         "TOV": 0,
         "PF": 2,
-        "PTS": 2
+        "PTS": 4
       }
     ],
     "CareerTotalsRegularSeason": [
@@ -40,12 +40,12 @@
         "PLAYER_ID": 1642866,
         "LEAGUE_ID": "00",
         "TEAM_ID": 0,
-        "GP": 4,
+        "GP": 5,
         "GS": 0,
-        "MIN": 11,
-        "FGM": 1,
-        "FGA": 2,
-        "FG_PCT": 0.5,
+        "MIN": 14,
+        "FGM": 2,
+        "FGA": 3,
+        "FG_PCT": 0.666666666666,
         "FG3M": 0,
         "FG3A": 0,
         "FG3_PCT": 0.0,
@@ -60,7 +60,7 @@
         "BLK": 0,
         "TOV": 0,
         "PF": 2,
-        "PTS": 2
+        "PTS": 4
       }
     ],
     "SeasonTotalsPostSeason": [],
@@ -81,29 +81,42 @@
         "PLAYER_AGE": "NR",
         "GP": "NR",
         "GS": "NR",
-        "RANK_MIN": 394,
-        "RANK_FGM": 386,
-        "RANK_FGA": 403,
+        "RANK_MIN": 387,
+        "RANK_FGM": 370,
+        "RANK_FGA": 399,
         "RANK_FG_PCT": null,
-        "RANK_FG3M": 329,
-        "RANK_FG3A": 377,
+        "RANK_FG3M": 336,
+        "RANK_FG3A": 385,
         "RANK_FG3_PCT": null,
-        "RANK_FTM": 349,
-        "RANK_FTA": 359,
+        "RANK_FTM": 356,
+        "RANK_FTA": 365,
         "RANK_FT_PCT": null,
-        "RANK_OREB": 310,
-        "RANK_DREB": 315,
-        "RANK_REB": 323,
-        "RANK_AST": 394,
-        "RANK_STL": 354,
-        "RANK_BLK": 285,
-        "RANK_TOV": 381,
-        "RANK_PTS": 403,
-        "RANK_EFF": 377
+        "RANK_OREB": 323,
+        "RANK_DREB": 326,
+        "RANK_REB": 334,
+        "RANK_AST": 403,
+        "RANK_STL": 365,
+        "RANK_BLK": 293,
+        "RANK_TOV": 389,
+        "RANK_PTS": 389,
+        "RANK_EFF": 367
       }
     ],
     "SeasonRankingsPostSeason": [],
     "SeasonHighs": [
+      {
+        "PLAYER_ID": 1642866,
+        "GAME_ID": "0022500175",
+        "GAME_DATE": "Nov 05 2025",
+        "VS_TEAM_ID": 1610612752,
+        "VS_TEAM_CITY": "New York",
+        "VS_TEAM_NAME": "Knicks",
+        "VS_TEAM_ABBREVIATION": "NYK",
+        "STAT": "PTS",
+        "STAT_VALUE": 2,
+        "STAT_ORDER": 1,
+        "DATE_EST": "2025-11-05T00:00:00"
+      },
       {
         "PLAYER_ID": 1642866,
         "GAME_ID": "0022500019",
@@ -158,6 +171,19 @@
       },
       {
         "PLAYER_ID": 1642866,
+        "GAME_ID": "0022500175",
+        "GAME_DATE": "Nov 05 2025",
+        "VS_TEAM_ID": 1610612752,
+        "VS_TEAM_CITY": "New York",
+        "VS_TEAM_NAME": "Knicks",
+        "VS_TEAM_ABBREVIATION": "NYK",
+        "STAT": "AST",
+        "STAT_VALUE": 0,
+        "STAT_ORDER": 5,
+        "DATE_EST": "2025-11-05T00:00:00"
+      },
+      {
+        "PLAYER_ID": 1642866,
         "GAME_ID": "0022500156",
         "GAME_DATE": "Nov 03 2025",
         "VS_TEAM_ID": 1610612751,
@@ -210,6 +236,19 @@
       },
       {
         "PLAYER_ID": 1642866,
+        "GAME_ID": "0022500175",
+        "GAME_DATE": "Nov 05 2025",
+        "VS_TEAM_ID": 1610612752,
+        "VS_TEAM_CITY": "New York",
+        "VS_TEAM_NAME": "Knicks",
+        "VS_TEAM_ABBREVIATION": "NYK",
+        "STAT": "STL",
+        "STAT_VALUE": 0,
+        "STAT_ORDER": 6,
+        "DATE_EST": "2025-11-05T00:00:00"
+      },
+      {
+        "PLAYER_ID": 1642866,
         "GAME_ID": "0022500156",
         "GAME_DATE": "Nov 03 2025",
         "VS_TEAM_ID": 1610612751,
@@ -262,6 +301,19 @@
       },
       {
         "PLAYER_ID": 1642866,
+        "GAME_ID": "0022500175",
+        "GAME_DATE": "Nov 05 2025",
+        "VS_TEAM_ID": 1610612752,
+        "VS_TEAM_CITY": "New York",
+        "VS_TEAM_NAME": "Knicks",
+        "VS_TEAM_ABBREVIATION": "NYK",
+        "STAT": "BLK",
+        "STAT_VALUE": 0,
+        "STAT_ORDER": 7,
+        "DATE_EST": "2025-11-05T00:00:00"
+      },
+      {
+        "PLAYER_ID": 1642866,
         "GAME_ID": "0022500156",
         "GAME_DATE": "Nov 03 2025",
         "VS_TEAM_ID": 1610612751,
@@ -311,6 +363,19 @@
         "STAT_VALUE": 0,
         "STAT_ORDER": 7,
         "DATE_EST": "2025-10-24T00:00:00"
+      },
+      {
+        "PLAYER_ID": 1642866,
+        "GAME_ID": "0022500175",
+        "GAME_DATE": "Nov 05 2025",
+        "VS_TEAM_ID": 1610612752,
+        "VS_TEAM_CITY": "New York",
+        "VS_TEAM_NAME": "Knicks",
+        "VS_TEAM_ABBREVIATION": "NYK",
+        "STAT": "FGM",
+        "STAT_VALUE": 1,
+        "STAT_ORDER": 8,
+        "DATE_EST": "2025-11-05T00:00:00"
       },
       {
         "PLAYER_ID": 1642866,
@@ -327,6 +392,19 @@
       },
       {
         "PLAYER_ID": 1642866,
+        "GAME_ID": "0022500175",
+        "GAME_DATE": "Nov 05 2025",
+        "VS_TEAM_ID": 1610612752,
+        "VS_TEAM_CITY": "New York",
+        "VS_TEAM_NAME": "Knicks",
+        "VS_TEAM_ABBREVIATION": "NYK",
+        "STAT": "FGA",
+        "STAT_VALUE": 1,
+        "STAT_ORDER": 9,
+        "DATE_EST": "2025-11-05T00:00:00"
+      },
+      {
+        "PLAYER_ID": 1642866,
         "GAME_ID": "0022500156",
         "GAME_DATE": "Nov 03 2025",
         "VS_TEAM_ID": 1610612751,
@@ -353,6 +431,19 @@
       },
       {
         "PLAYER_ID": 1642866,
+        "GAME_ID": "0022500175",
+        "GAME_DATE": "Nov 05 2025",
+        "VS_TEAM_ID": 1610612752,
+        "VS_TEAM_CITY": "New York",
+        "VS_TEAM_NAME": "Knicks",
+        "VS_TEAM_ABBREVIATION": "NYK",
+        "STAT": "FG3M",
+        "STAT_VALUE": 0,
+        "STAT_ORDER": 10,
+        "DATE_EST": "2025-11-05T00:00:00"
+      },
+      {
+        "PLAYER_ID": 1642866,
         "GAME_ID": "0022500156",
         "GAME_DATE": "Nov 03 2025",
         "VS_TEAM_ID": 1610612751,
@@ -405,6 +496,19 @@
       },
       {
         "PLAYER_ID": 1642866,
+        "GAME_ID": "0022500175",
+        "GAME_DATE": "Nov 05 2025",
+        "VS_TEAM_ID": 1610612752,
+        "VS_TEAM_CITY": "New York",
+        "VS_TEAM_NAME": "Knicks",
+        "VS_TEAM_ABBREVIATION": "NYK",
+        "STAT": "FG3A",
+        "STAT_VALUE": 0,
+        "STAT_ORDER": 11,
+        "DATE_EST": "2025-11-05T00:00:00"
+      },
+      {
+        "PLAYER_ID": 1642866,
         "GAME_ID": "0022500156",
         "GAME_DATE": "Nov 03 2025",
         "VS_TEAM_ID": 1610612751,
@@ -457,6 +561,19 @@
       },
       {
         "PLAYER_ID": 1642866,
+        "GAME_ID": "0022500175",
+        "GAME_DATE": "Nov 05 2025",
+        "VS_TEAM_ID": 1610612752,
+        "VS_TEAM_CITY": "New York",
+        "VS_TEAM_NAME": "Knicks",
+        "VS_TEAM_ABBREVIATION": "NYK",
+        "STAT": "FTM",
+        "STAT_VALUE": 0,
+        "STAT_ORDER": 12,
+        "DATE_EST": "2025-11-05T00:00:00"
+      },
+      {
+        "PLAYER_ID": 1642866,
         "GAME_ID": "0022500156",
         "GAME_DATE": "Nov 03 2025",
         "VS_TEAM_ID": 1610612751,
@@ -506,6 +623,19 @@
         "STAT_VALUE": 0,
         "STAT_ORDER": 12,
         "DATE_EST": "2025-10-24T00:00:00"
+      },
+      {
+        "PLAYER_ID": 1642866,
+        "GAME_ID": "0022500175",
+        "GAME_DATE": "Nov 05 2025",
+        "VS_TEAM_ID": 1610612752,
+        "VS_TEAM_CITY": "New York",
+        "VS_TEAM_NAME": "Knicks",
+        "VS_TEAM_ABBREVIATION": "NYK",
+        "STAT": "FTA",
+        "STAT_VALUE": 0,
+        "STAT_ORDER": 13,
+        "DATE_EST": "2025-11-05T00:00:00"
       },
       {
         "PLAYER_ID": 1642866,
@@ -563,6 +693,19 @@
     "CareerHighs": [
       {
         "PLAYER_ID": 1642866,
+        "GAME_ID": "0022500175",
+        "GAME_DATE": "Nov 05 2025",
+        "VS_TEAM_ID": 1610612752,
+        "VS_TEAM_CITY": "New York",
+        "VS_TEAM_NAME": "Knicks",
+        "VS_TEAM_ABBREVIATION": "NYK",
+        "STAT": "PTS",
+        "STAT_VALUE": 2,
+        "STAT_ORDER": 1,
+        "DATE_EST": "2025-11-05T00:00:00"
+      },
+      {
+        "PLAYER_ID": 1642866,
         "GAME_ID": "0022500019",
         "GAME_DATE": "Oct 24 2025",
         "VS_TEAM_ID": 1610612747,
@@ -615,6 +758,19 @@
       },
       {
         "PLAYER_ID": 1642866,
+        "GAME_ID": "0022500175",
+        "GAME_DATE": "Nov 05 2025",
+        "VS_TEAM_ID": 1610612752,
+        "VS_TEAM_CITY": "New York",
+        "VS_TEAM_NAME": "Knicks",
+        "VS_TEAM_ABBREVIATION": "NYK",
+        "STAT": "AST",
+        "STAT_VALUE": 0,
+        "STAT_ORDER": 5,
+        "DATE_EST": "2025-11-05T00:00:00"
+      },
+      {
+        "PLAYER_ID": 1642866,
         "GAME_ID": "0022500156",
         "GAME_DATE": "Nov 03 2025",
         "VS_TEAM_ID": 1610612751,
@@ -667,6 +823,19 @@
       },
       {
         "PLAYER_ID": 1642866,
+        "GAME_ID": "0022500175",
+        "GAME_DATE": "Nov 05 2025",
+        "VS_TEAM_ID": 1610612752,
+        "VS_TEAM_CITY": "New York",
+        "VS_TEAM_NAME": "Knicks",
+        "VS_TEAM_ABBREVIATION": "NYK",
+        "STAT": "STL",
+        "STAT_VALUE": 0,
+        "STAT_ORDER": 6,
+        "DATE_EST": "2025-11-05T00:00:00"
+      },
+      {
+        "PLAYER_ID": 1642866,
         "GAME_ID": "0022500156",
         "GAME_DATE": "Nov 03 2025",
         "VS_TEAM_ID": 1610612751,
@@ -719,6 +888,19 @@
       },
       {
         "PLAYER_ID": 1642866,
+        "GAME_ID": "0022500175",
+        "GAME_DATE": "Nov 05 2025",
+        "VS_TEAM_ID": 1610612752,
+        "VS_TEAM_CITY": "New York",
+        "VS_TEAM_NAME": "Knicks",
+        "VS_TEAM_ABBREVIATION": "NYK",
+        "STAT": "BLK",
+        "STAT_VALUE": 0,
+        "STAT_ORDER": 7,
+        "DATE_EST": "2025-11-05T00:00:00"
+      },
+      {
+        "PLAYER_ID": 1642866,
         "GAME_ID": "0022500156",
         "GAME_DATE": "Nov 03 2025",
         "VS_TEAM_ID": 1610612751,
@@ -768,6 +950,19 @@
         "STAT_VALUE": 0,
         "STAT_ORDER": 7,
         "DATE_EST": "2025-10-24T00:00:00"
+      },
+      {
+        "PLAYER_ID": 1642866,
+        "GAME_ID": "0022500175",
+        "GAME_DATE": "Nov 05 2025",
+        "VS_TEAM_ID": 1610612752,
+        "VS_TEAM_CITY": "New York",
+        "VS_TEAM_NAME": "Knicks",
+        "VS_TEAM_ABBREVIATION": "NYK",
+        "STAT": "FGM",
+        "STAT_VALUE": 1,
+        "STAT_ORDER": 8,
+        "DATE_EST": "2025-11-05T00:00:00"
       },
       {
         "PLAYER_ID": 1642866,
@@ -784,6 +979,19 @@
       },
       {
         "PLAYER_ID": 1642866,
+        "GAME_ID": "0022500175",
+        "GAME_DATE": "Nov 05 2025",
+        "VS_TEAM_ID": 1610612752,
+        "VS_TEAM_CITY": "New York",
+        "VS_TEAM_NAME": "Knicks",
+        "VS_TEAM_ABBREVIATION": "NYK",
+        "STAT": "FGA",
+        "STAT_VALUE": 1,
+        "STAT_ORDER": 9,
+        "DATE_EST": "2025-11-05T00:00:00"
+      },
+      {
+        "PLAYER_ID": 1642866,
         "GAME_ID": "0022500156",
         "GAME_DATE": "Nov 03 2025",
         "VS_TEAM_ID": 1610612751,
@@ -810,6 +1018,19 @@
       },
       {
         "PLAYER_ID": 1642866,
+        "GAME_ID": "0022500175",
+        "GAME_DATE": "Nov 05 2025",
+        "VS_TEAM_ID": 1610612752,
+        "VS_TEAM_CITY": "New York",
+        "VS_TEAM_NAME": "Knicks",
+        "VS_TEAM_ABBREVIATION": "NYK",
+        "STAT": "FG3M",
+        "STAT_VALUE": 0,
+        "STAT_ORDER": 10,
+        "DATE_EST": "2025-11-05T00:00:00"
+      },
+      {
+        "PLAYER_ID": 1642866,
         "GAME_ID": "0022500156",
         "GAME_DATE": "Nov 03 2025",
         "VS_TEAM_ID": 1610612751,
@@ -862,6 +1083,19 @@
       },
       {
         "PLAYER_ID": 1642866,
+        "GAME_ID": "0022500175",
+        "GAME_DATE": "Nov 05 2025",
+        "VS_TEAM_ID": 1610612752,
+        "VS_TEAM_CITY": "New York",
+        "VS_TEAM_NAME": "Knicks",
+        "VS_TEAM_ABBREVIATION": "NYK",
+        "STAT": "FG3A",
+        "STAT_VALUE": 0,
+        "STAT_ORDER": 11,
+        "DATE_EST": "2025-11-05T00:00:00"
+      },
+      {
+        "PLAYER_ID": 1642866,
         "GAME_ID": "0022500156",
         "GAME_DATE": "Nov 03 2025",
         "VS_TEAM_ID": 1610612751,
@@ -914,6 +1148,19 @@
       },
       {
         "PLAYER_ID": 1642866,
+        "GAME_ID": "0022500175",
+        "GAME_DATE": "Nov 05 2025",
+        "VS_TEAM_ID": 1610612752,
+        "VS_TEAM_CITY": "New York",
+        "VS_TEAM_NAME": "Knicks",
+        "VS_TEAM_ABBREVIATION": "NYK",
+        "STAT": "FTM",
+        "STAT_VALUE": 0,
+        "STAT_ORDER": 12,
+        "DATE_EST": "2025-11-05T00:00:00"
+      },
+      {
+        "PLAYER_ID": 1642866,
         "GAME_ID": "0022500156",
         "GAME_DATE": "Nov 03 2025",
         "VS_TEAM_ID": 1610612751,
@@ -963,6 +1210,19 @@
         "STAT_VALUE": 0,
         "STAT_ORDER": 12,
         "DATE_EST": "2025-10-24T00:00:00"
+      },
+      {
+        "PLAYER_ID": 1642866,
+        "GAME_ID": "0022500175",
+        "GAME_DATE": "Nov 05 2025",
+        "VS_TEAM_ID": 1610612752,
+        "VS_TEAM_CITY": "New York",
+        "VS_TEAM_NAME": "Knicks",
+        "VS_TEAM_ABBREVIATION": "NYK",
+        "STAT": "FTA",
+        "STAT_VALUE": 0,
+        "STAT_ORDER": 13,
+        "DATE_EST": "2025-11-05T00:00:00"
       },
       {
         "PLAYER_ID": 1642866,
