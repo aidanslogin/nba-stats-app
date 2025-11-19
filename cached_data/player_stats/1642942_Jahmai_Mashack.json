@@ -1,0 +1,48 @@
+{
+  "last_updated": "2025-11-18T08:06:58.132129",
+  "player_id": 1642942,
+  "player_name": "Jahmai Mashack",
+  "season": "2025-26",
+  "data": {
+    "SeasonTotalsRegularSeason": [],
+    "CareerTotalsRegularSeason": [],
+    "SeasonTotalsPostSeason": [],
+    "CareerTotalsPostSeason": [],
+    "SeasonTotalsAllStarSeason": [],
+    "CareerTotalsAllStarSeason": [],
+    "SeasonTotalsCollegeSeason": [],
+    "CareerTotalsCollegeSeason": [],
+    "SeasonTotalsShowcaseSeason": [],
+    "CareerTotalsShowcaseSeason": [],
+    "SeasonRankingsRegularSeason": [],
+    "SeasonRankingsPostSeason": [],
+    "SeasonHighs": [
+      {
+        "PLAYER_ID": 1642942,
+        "GAME_DATE": "",
+        "VS_TEAM_ID": 0,
+        "VS_TEAM_CITY": "",
+        "VS_TEAM_NAME": "",
+        "VS_TEAM_ABBREVIATION": "",
+        "STAT": "",
+        "STATS_VALUE": 0,
+        "STAT_ORDER": 0,
+        "DATE_EST": ""
+      }
+    ],
+    "CareerHighs": [
+      {
+        "PLAYER_ID": 1642942,
+        "GAME_DATE": "",
+        "VS_TEAM_ID": 0,
+        "VS_TEAM_CITY": "",
+        "VS_TEAM_NAME": "",
+        "VS_TEAM_ABBREVIATION": "",
+        "STAT": "",
+        "STATS_VALUE": 0,
+        "STAT_ORDER": 0,
+        "DATE_EST": ""
+      }
+    ]
+  }
+}
