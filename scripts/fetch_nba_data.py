@@ -18,6 +18,10 @@ import json
 import os
 import time
 
+# Increase timeout for GitHub Actions (NBA API can be slow)
+from nba_api.stats.library.http import NBAStatsHTTP
+NBAStatsHTTP.timeout = 120  # Increase from 30 to 120 seconds
+
 # Configuration
 SEASON = "2025-26"
 OUTPUT_DIR = "cached_data"
