@@ -13,14 +13,14 @@ import time
 import nba_api.stats.library.http as nba_http
 
 # Store original method
-_original_send = nba_http.NBAStatsHTTP._send_api_request
+_original_send = nba_http.NBAStatsHTTP.send_api_request
 
 # Create patched version with longer timeout
 def _patched_send(self, endpoint, parameters, referer=None, proxy=None, headers=None, timeout=120):
     return _original_send(self, endpoint, parameters, referer=referer, proxy=proxy, headers=headers, timeout=timeout)
 
 # Apply the patch
-nba_http.NBAStatsHTTP._send_api_request = _patched_send
+nba_http.NBAStatsHTTP.send_api_request = _patched_send
 
 # NOW import endpoints (after patch is applied)
 from nba_api.stats.endpoints import (
