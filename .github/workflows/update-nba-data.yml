@@ -1,9 +1,9 @@
 name: Update NBA Data Daily
 
 on:
-  schedule:
-    # Run at 3 AM EST every day (8 AM UTC)
-    - cron: '0 8 * * *'
+  # schedule:
+  #   - cron: '0 8 * * *'
+
   workflow_dispatch:  # Allows manual trigger
 
 jobs:
