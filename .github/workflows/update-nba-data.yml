@@ -24,6 +24,8 @@ jobs:
           pip install nba-api pandas numpy
       
       - name: Fetch NBA data
+        env:
+          REQUESTS_TIMEOUT: 120
         run: |
           python scripts/fetch_nba_data.py
       
@@ -38,4 +40,3 @@ jobs:
             git commit -m "chore: Update NBA data cache [$(date +'%Y-%m-%d')]"
             git push
           fi
-
