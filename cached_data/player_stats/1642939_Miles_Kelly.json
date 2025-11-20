@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-18T06:04:19.832392",
+  "last_updated": "2025-11-19T17:13:19.745827",
   "player_id": 1642939,
   "player_name": "Miles Kelly",
+  "team_abbreviation": "DAL",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [
@@ -599,6 +600,68 @@
         "STAT_VALUE": 0,
         "STAT_ORDER": 13,
         "DATE_EST": "2025-10-26T00:00:00"
+      }
+    ]
+  },
+  "game_log": {
+    "PlayerGameLog": [
+      {
+        "SEASON_ID": "22025",
+        "Player_ID": 1642939,
+        "Game_ID": "0022500246",
+        "GAME_DATE": "Nov 17, 2025",
+        "MATCHUP": "DAL @ MIN",
+        "WL": "L",
+        "MIN": 9,
+        "FGM": 1,
+        "FGA": 2,
+        "FG_PCT": 0.5,
+        "FG3M": 0,
+        "FG3A": 1,
+        "FG3_PCT": 0.0,
+        "FTM": 0,
+        "FTA": 0,
+        "FT_PCT": 0.0,
+        "OREB": 1,
+        "DREB": 3,
+        "REB": 4,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TOV": 0,
+        "PF": 1,
+        "PTS": 2,
+        "PLUS_MINUS": 3,
+        "VIDEO_AVAILABLE": 1
+      },
+      {
+        "SEASON_ID": "22025",
+        "Player_ID": 1642939,
+        "Game_ID": "0022500111",
+        "GAME_DATE": "Oct 26, 2025",
+        "MATCHUP": "DAL vs. TOR",
+        "WL": "W",
+        "MIN": 2,
+        "FGM": 0,
+        "FGA": 0,
+        "FG_PCT": 0.0,
+        "FG3M": 0,
+        "FG3A": 0,
+        "FG3_PCT": 0.0,
+        "FTM": 0,
+        "FTA": 0,
+        "FT_PCT": 0.0,
+        "OREB": 0,
+        "DREB": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TOV": 1,
+        "PF": 1,
+        "PTS": 0,
+        "PLUS_MINUS": -6,
+        "VIDEO_AVAILABLE": 1
       }
     ]
   }

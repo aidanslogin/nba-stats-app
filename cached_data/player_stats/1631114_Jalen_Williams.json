@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-18T09:23:34.325808",
+  "last_updated": "2025-11-19T19:57:01.505097",
   "player_id": 1631114,
   "player_name": "Jalen Williams",
+  "team_abbreviation": "OKC",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [
@@ -1008,5 +1009,8 @@
         "DATE_EST": "2025-06-16T00:00:00"
       }
     ]
+  },
+  "game_log": {
+    "PlayerGameLog": []
   }
 }

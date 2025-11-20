@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-18T09:23:25.011531",
+  "last_updated": "2025-11-19T19:55:48.059278",
   "player_id": 1629632,
   "player_name": "Coby White",
+  "team_abbreviation": "CHI",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [
@@ -1117,6 +1118,39 @@
         "STAT_VALUE": 14,
         "STAT_ORDER": 13,
         "DATE_EST": "2025-03-20T00:00:00"
+      }
+    ]
+  },
+  "game_log": {
+    "PlayerGameLog": [
+      {
+        "SEASON_ID": "22025",
+        "Player_ID": 1629632,
+        "Game_ID": "0022500240",
+        "GAME_DATE": "Nov 16, 2025",
+        "MATCHUP": "CHI @ UTA",
+        "WL": "L",
+        "MIN": 30,
+        "FGM": 5,
+        "FGA": 14,
+        "FG_PCT": 0.357,
+        "FG3M": 3,
+        "FG3A": 8,
+        "FG3_PCT": 0.375,
+        "FTM": 14,
+        "FTA": 14,
+        "FT_PCT": 1.0,
+        "OREB": 0,
+        "DREB": 4,
+        "REB": 4,
+        "AST": 8,
+        "STL": 1,
+        "BLK": 0,
+        "TOV": 3,
+        "PF": 3,
+        "PTS": 27,
+        "PLUS_MINUS": 6,
+        "VIDEO_AVAILABLE": 1
       }
     ]
   }

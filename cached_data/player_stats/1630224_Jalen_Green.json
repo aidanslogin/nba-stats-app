@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-18T04:20:17.977873",
+  "last_updated": "2025-11-19T17:10:49.047601",
   "player_id": 1630224,
   "player_name": "Jalen Green",
+  "team_abbreviation": "PHX",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [
@@ -944,6 +945,68 @@
         "STAT_VALUE": 17,
         "STAT_ORDER": 13,
         "DATE_EST": "2023-02-13T00:00:00"
+      }
+    ]
+  },
+  "game_log": {
+    "PlayerGameLog": [
+      {
+        "SEASON_ID": "22025",
+        "Player_ID": 1630224,
+        "Game_ID": "0022500190",
+        "GAME_DATE": "Nov 08, 2025",
+        "MATCHUP": "PHX @ LAC",
+        "WL": "W",
+        "MIN": 7,
+        "FGM": 1,
+        "FGA": 3,
+        "FG_PCT": 0.333,
+        "FG3M": 0,
+        "FG3A": 1,
+        "FG3_PCT": 0.0,
+        "FTM": 0,
+        "FTA": 0,
+        "FT_PCT": 0.0,
+        "OREB": 1,
+        "DREB": 0,
+        "REB": 1,
+        "AST": 1,
+        "STL": 0,
+        "BLK": 0,
+        "TOV": 0,
+        "PF": 1,
+        "PTS": 2,
+        "PLUS_MINUS": 7,
+        "VIDEO_AVAILABLE": 1
+      },
+      {
+        "SEASON_ID": "22025",
+        "Player_ID": 1630224,
+        "Game_ID": "0022500182",
+        "GAME_DATE": "Nov 06, 2025",
+        "MATCHUP": "PHX vs. LAC",
+        "WL": "W",
+        "MIN": 23,
+        "FGM": 10,
+        "FGA": 20,
+        "FG_PCT": 0.5,
+        "FG3M": 6,
+        "FG3A": 13,
+        "FG3_PCT": 0.462,
+        "FTM": 3,
+        "FTA": 5,
+        "FT_PCT": 0.6,
+        "OREB": 1,
+        "DREB": 2,
+        "REB": 3,
+        "AST": 3,
+        "STL": 2,
+        "BLK": 0,
+        "TOV": 2,
+        "PF": 1,
+        "PTS": 29,
+        "PLUS_MINUS": 30,
+        "VIDEO_AVAILABLE": 1
       }
     ]
   }

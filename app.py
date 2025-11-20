@@ -6,7 +6,7 @@ import numpy as np
 import time
 
 # Import stats functions from stats module
-from stats import get_player_stats, get_team_offense_stats, get_team_defense_stats
+from stats import get_player_stats, get_team_offense_stats, get_team_defense_stats, get_top_30_by_category
 
 # Import from cached data modules
 from data.teams import get_all_teams, get_cache_timestamp as get_teams_timestamp, get_cache_season
@@ -56,7 +56,7 @@ with st.sidebar:
     st.caption("Data is cached and refreshed daily at 3 AM")
 
 # Tabs
-tab1, tab2, tab3 = st.tabs(["👤 Player Stats", "⚔️ Team Offense", "🛡️ Team Defense"])
+tab1, tab2, tab3, tab4 = st.tabs(["👤 Player Stats", "🛡️ Team Defense", "⚔️ Team Offense", "🏆 League Leaders"])
 
 # TAB 1: PLAYER STATS
 with tab1:
@@ -78,6 +78,21 @@ with tab1:
                 time.sleep(0.6)
                 
                 if player_data:
+                    # CONTEXT BOX - Show games played vs missed
+                    if 'context' in player_data:
+                        ctx = player_data['context']
+                        col1, col2, col3 = st.columns(3)
+                        with col1:
+                            st.metric("Total Team Games", ctx['total_games'])
+                        with col2:
+                            st.metric("Games Played", ctx['games_played'])
+                        with col3:
+                            st.metric("Games Missed", ctx['games_missed'])
+                        
+                        # Show date range for recent form
+                        if 'date_range' in player_data['trimmed_7']:
+                            st.info(f"📅 Recent Form based on games from: **{player_data['trimmed_7']['date_range']}**")
+                    
                     # Create comparison table
                     comparison_data = {
                         'Stat': ['Games Played', 'Points Per Game', 'Rebounds', 'Assists', 
@@ -150,8 +165,17 @@ with tab1:
                     st.subheader("📅 Recent Games")
                     st.dataframe(player_data['last_7_games'], use_container_width=True)
                     
+                    # MOVED HERE: Show last 5 missed games AFTER stats and recent games
+                    if 'last_5_missed_games' in player_data and not player_data['last_5_missed_games'].empty:
+                        st.markdown("---")
+                        st.warning(f"⚠️ **Last {len(player_data['last_5_missed_games'])} game(s) missed:**")
+                        missed_games_display = player_data['last_5_missed_games'].copy()
+                        missed_games_display.columns = ['Date', 'Opponent']
+                        st.dataframe(missed_games_display, use_container_width=True, hide_index=True)
+                    
                 else:
                     st.error(f"No data available for {selected_player_name} in {season}")
+
 
 # TAB 2: TEAM OFFENSE
 with tab2:
@@ -372,6 +396,47 @@ with tab3:
             st.dataframe(defense_data['last_7_games'], use_container_width=True, hide_index=True)
         else:
             st.error(f"No defensive data available for {selected_team_name_def} in {season}")
+
+# TAB 4: LEAGUE LEADERS
+with tab4:
+    st.header(f"🏆 League Leaders - Last 7 Games - {season}")
+    st.info("📈 Rankings based on recent form (last 7 games, trimmed) from cached data")
+    
+    if st.button("Load League Leaders", key="leaders_button"):
+        with st.spinner("Calculating recent form from cached data..."):
+            leaderboards = get_top_30_by_category()
+            
+            if leaderboards:
+                # Display each leaderboard
+                col1, col2 = st.columns(2)
+                
+                with col1:
+                    st.subheader("📊 Points Per Game")
+                    if 'Points Per Game' in leaderboards and not leaderboards['Points Per Game'].empty:
+                        st.dataframe(leaderboards['Points Per Game'], use_container_width=True, hide_index=True)
+                    
+                    st.subheader("🎯 3-Pointers Made")
+                    if '3-Pointers Made' in leaderboards and not leaderboards['3-Pointers Made'].empty:
+                        st.dataframe(leaderboards['3-Pointers Made'], use_container_width=True, hide_index=True)
+                    
+                    st.subheader("🤚 Blocks Per Game")
+                    if 'Blocks Per Game' in leaderboards and not leaderboards['Blocks Per Game'].empty:
+                        st.dataframe(leaderboards['Blocks Per Game'], use_container_width=True, hide_index=True)
+                
+                with col2:
+                    st.subheader("🏀 Rebounds Per Game")
+                    if 'Rebounds Per Game' in leaderboards and not leaderboards['Rebounds Per Game'].empty:
+                        st.dataframe(leaderboards['Rebounds Per Game'], use_container_width=True, hide_index=True)
+                    
+                    st.subheader("🎁 Assists Per Game")
+                    if 'Assists Per Game' in leaderboards and not leaderboards['Assists Per Game'].empty:
+                        st.dataframe(leaderboards['Assists Per Game'], use_container_width=True, hide_index=True)
+                    
+                    st.subheader("✋ Steals Per Game")
+                    if 'Steals Per Game' in leaderboards and not leaderboards['Steals Per Game'].empty:
+                        st.dataframe(leaderboards['Steals Per Game'], use_container_width=True, hide_index=True)
+            else:
+                st.error("No cached data found. Please ensure player data is cached.")
 
 
 # Footer

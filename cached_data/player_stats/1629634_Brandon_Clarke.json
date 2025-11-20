@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-18T03:43:17.179774",
+  "last_updated": "2025-11-19T17:08:22.205912",
   "player_id": 1629634,
   "player_name": "Brandon Clarke",
+  "team_abbreviation": "MEM",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [
@@ -1033,5 +1034,8 @@
         "DATE_EST": "2022-04-21T00:00:00"
       }
     ]
+  },
+  "game_log": {
+    "PlayerGameLog": []
   }
 }

@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-18T04:20:20.608399",
+  "last_updated": "2025-11-19T17:10:53.698816",
   "player_id": 1630182,
   "player_name": "Josh Green",
+  "team_abbreviation": "CHA",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [
@@ -897,5 +898,8 @@
         "DATE_EST": "2022-04-21T00:00:00"
       }
     ]
+  },
+  "game_log": {
+    "PlayerGameLog": []
   }
 }

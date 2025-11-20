@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-18T04:11:01.627121",
+  "last_updated": "2025-11-19T17:10:10.892429",
   "player_id": 1642402,
   "player_name": "Enrique Freeman",
+  "team_abbreviation": "MIN",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [
@@ -601,5 +602,8 @@
         "DATE_EST": "2024-11-22T00:00:00"
       }
     ]
+  },
+  "game_log": {
+    "PlayerGameLog": []
   }
 }

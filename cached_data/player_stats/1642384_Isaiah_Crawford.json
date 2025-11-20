@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-18T03:52:27.235544",
+  "last_updated": "2025-11-19T17:08:50.471155",
   "player_id": 1642384,
   "player_name": "Isaiah Crawford",
+  "team_abbreviation": "HOU",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [
@@ -731,5 +732,8 @@
         "DATE_EST": "2025-02-05T00:00:00"
       }
     ]
+  },
+  "game_log": {
+    "PlayerGameLog": []
   }
 }

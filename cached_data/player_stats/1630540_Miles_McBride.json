@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-18T09:07:57.972354",
+  "last_updated": "2025-11-19T17:15:12.134037",
   "player_id": 1630540,
   "player_name": "Miles McBride",
+  "team_abbreviation": "NYK",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [
@@ -1226,5 +1227,6 @@
         "DATE_EST": "2022-12-27T00:00:00"
       }
     ]
-  }
+  },
+  "game_log": []
 }

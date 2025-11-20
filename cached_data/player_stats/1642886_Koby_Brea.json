@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-18T03:24:53.808182",
+  "last_updated": "2025-11-19T17:07:23.318142",
   "player_id": 1642886,
   "player_name": "Koby Brea",
+  "team_abbreviation": "PHX",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [
@@ -443,6 +444,39 @@
         "STAT_VALUE": 2,
         "STAT_ORDER": 13,
         "DATE_EST": "2025-11-02T00:00:00"
+      }
+    ]
+  },
+  "game_log": {
+    "PlayerGameLog": [
+      {
+        "SEASON_ID": "22025",
+        "Player_ID": 1642886,
+        "Game_ID": "0022500154",
+        "GAME_DATE": "Nov 02, 2025",
+        "MATCHUP": "PHX vs. SAS",
+        "WL": "W",
+        "MIN": 4,
+        "FGM": 1,
+        "FGA": 2,
+        "FG_PCT": 0.5,
+        "FG3M": 0,
+        "FG3A": 1,
+        "FG3_PCT": 0.0,
+        "FTM": 2,
+        "FTA": 2,
+        "FT_PCT": 1.0,
+        "OREB": 0,
+        "DREB": 0,
+        "REB": 0,
+        "AST": 1,
+        "STL": 0,
+        "BLK": 0,
+        "TOV": 0,
+        "PF": 0,
+        "PTS": 4,
+        "PLUS_MINUS": -11,
+        "VIDEO_AVAILABLE": 1
       }
     ]
   }

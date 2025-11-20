@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-18T06:04:04.626200",
+  "last_updated": "2025-11-19T17:12:56.110006",
   "player_id": 1642938,
   "player_name": "Curtis Jones",
+  "team_abbreviation": "DEN",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [],
@@ -44,5 +45,8 @@
         "DATE_EST": ""
       }
     ]
+  },
+  "game_log": {
+    "PlayerGameLog": []
   }
 }

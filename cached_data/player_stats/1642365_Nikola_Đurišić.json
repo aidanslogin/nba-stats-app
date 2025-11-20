@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-18T09:23:55.969293",
+  "last_updated": "2025-11-19T19:57:37.237680",
   "player_id": 1642365,
   "player_name": "Nikola \u0110uri\u0161i\u0107",
+  "team_abbreviation": "ATL",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [],
@@ -44,5 +45,8 @@
         "DATE_EST": ""
       }
     ]
+  },
+  "game_log": {
+    "PlayerGameLog": []
   }
 }

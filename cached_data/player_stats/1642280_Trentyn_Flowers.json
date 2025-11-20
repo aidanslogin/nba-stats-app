@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-18T04:10:56.878377",
+  "last_updated": "2025-11-19T17:10:06.732129",
   "player_id": 1642280,
   "player_name": "Trentyn Flowers",
+  "team_abbreviation": "CHI",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [
@@ -965,5 +966,8 @@
         "DATE_EST": "2025-04-02T00:00:00"
       }
     ]
+  },
+  "game_log": {
+    "PlayerGameLog": []
   }
 }

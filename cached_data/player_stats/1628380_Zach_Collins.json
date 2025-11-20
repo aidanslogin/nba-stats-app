@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-18T03:52:19.419473",
+  "last_updated": "2025-11-19T17:08:39.876426",
   "player_id": 1628380,
   "player_name": "Zach Collins",
+  "team_abbreviation": "CHI",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [
@@ -1061,5 +1062,8 @@
         "DATE_EST": "2022-04-01T00:00:00"
       }
     ]
+  },
+  "game_log": {
+    "PlayerGameLog": []
   }
 }

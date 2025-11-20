@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-18T04:20:09.213404",
+  "last_updated": "2025-11-19T17:10:34.314773",
   "player_id": 1642884,
   "player_name": "Vladislav Goldin",
+  "team_abbreviation": "MIA",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [],
@@ -44,5 +45,8 @@
         "DATE_EST": ""
       }
     ]
+  },
+  "game_log": {
+    "PlayerGameLog": []
   }
 }

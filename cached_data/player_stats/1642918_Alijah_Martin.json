@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-18T08:06:52.637064",
+  "last_updated": "2025-11-19T17:14:28.583914",
   "player_id": 1642918,
   "player_name": "Alijah Martin",
+  "team_abbreviation": "TOR",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [],
@@ -44,5 +45,8 @@
         "DATE_EST": ""
       }
     ]
+  },
+  "game_log": {
+    "PlayerGameLog": []
   }
 }

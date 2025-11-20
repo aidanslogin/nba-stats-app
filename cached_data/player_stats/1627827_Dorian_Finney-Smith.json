@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-18T04:10:54.138404",
+  "last_updated": "2025-11-19T17:10:00.100992",
   "player_id": 1627827,
   "player_name": "Dorian Finney-Smith",
+  "team_abbreviation": "HOU",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [
@@ -1696,5 +1697,8 @@
         "DATE_EST": "2022-04-16T00:00:00"
       }
     ]
+  },
+  "game_log": {
+    "PlayerGameLog": []
   }
 }

@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-18T06:04:09.444362",
+  "last_updated": "2025-11-19T17:13:02.571982",
   "player_id": 1642880,
   "player_name": "Kam Jones",
+  "team_abbreviation": "IND",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [],
@@ -44,5 +45,8 @@
         "DATE_EST": ""
       }
     ]
+  },
+  "game_log": {
+    "PlayerGameLog": []
   }
 }

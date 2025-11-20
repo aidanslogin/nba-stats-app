@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-07T21:00:51.860467",
+  "last_updated": "2025-11-19T17:14:06.143047",
   "player_id": 1641753,
   "player_name": "Chris Livingston",
+  "team_abbreviation": "CLE",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [
@@ -1927,5 +1928,8 @@
         "DATE_EST": "2025-02-03T00:00:00"
       }
     ]
+  },
+  "game_log": {
+    "PlayerGameLog": []
   }
 }

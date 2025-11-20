@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-18T07:05:40.914816",
+  "last_updated": "2025-11-19T17:14:01.647126",
   "player_id": 203081,
   "player_name": "Damian Lillard",
+  "team_abbreviation": "POR",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [
@@ -2258,5 +2259,8 @@
         "DATE_EST": "2016-05-09T00:00:00"
       }
     ]
+  },
+  "game_log": {
+    "PlayerGameLog": []
   }
 }

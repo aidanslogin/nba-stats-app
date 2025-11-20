@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-18T04:01:52.737999",
+  "last_updated": "2025-11-19T17:09:49.761078",
   "player_id": 1642855,
   "player_name": "Noa Essengue",
+  "team_abbreviation": "CHI",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [],
@@ -44,5 +45,8 @@
         "DATE_EST": ""
       }
     ]
+  },
+  "game_log": {
+    "PlayerGameLog": []
   }
 }

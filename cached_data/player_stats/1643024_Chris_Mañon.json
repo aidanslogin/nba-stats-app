@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-07T21:01:09.860305",
+  "last_updated": "2025-11-19T17:14:40.637027",
   "player_id": 1643024,
   "player_name": "Chris Ma\u00f1on",
+  "team_abbreviation": "LAL",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [
@@ -703,6 +704,68 @@
         "STAT_VALUE": 0,
         "STAT_ORDER": 13,
         "DATE_EST": "2025-10-26T00:00:00"
+      }
+    ]
+  },
+  "game_log": {
+    "PlayerGameLog": [
+      {
+        "SEASON_ID": "22025",
+        "Player_ID": 1643024,
+        "Game_ID": "0022500122",
+        "GAME_DATE": "Oct 27, 2025",
+        "MATCHUP": "LAL vs. POR",
+        "WL": "L",
+        "MIN": 4,
+        "FGM": 0,
+        "FGA": 0,
+        "FG_PCT": 0.0,
+        "FG3M": 0,
+        "FG3A": 0,
+        "FG3_PCT": 0.0,
+        "FTM": 0,
+        "FTA": 0,
+        "FT_PCT": 0.0,
+        "OREB": 0,
+        "DREB": 1,
+        "REB": 1,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TOV": 0,
+        "PF": 2,
+        "PTS": 0,
+        "PLUS_MINUS": 3,
+        "VIDEO_AVAILABLE": 1
+      },
+      {
+        "SEASON_ID": "22025",
+        "Player_ID": 1643024,
+        "Game_ID": "0022500113",
+        "GAME_DATE": "Oct 26, 2025",
+        "MATCHUP": "LAL @ SAC",
+        "WL": "W",
+        "MIN": 3,
+        "FGM": 0,
+        "FGA": 1,
+        "FG_PCT": 0.0,
+        "FG3M": 0,
+        "FG3A": 1,
+        "FG3_PCT": 0.0,
+        "FTM": 0,
+        "FTA": 0,
+        "FT_PCT": 0.0,
+        "OREB": 0,
+        "DREB": 1,
+        "REB": 1,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 1,
+        "TOV": 0,
+        "PF": 0,
+        "PTS": 0,
+        "PLUS_MINUS": -1,
+        "VIDEO_AVAILABLE": 1
       }
     ]
   }

@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-18T04:29:28.915418",
+  "last_updated": "2025-11-19T17:11:17.594628",
   "player_id": 1630284,
   "player_name": "Kevon Harris",
+  "team_abbreviation": "HOU",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [
@@ -450,5 +451,8 @@
         "DATE_EST": "2023-04-09T00:00:00"
       }
     ]
+  },
+  "game_log": {
+    "PlayerGameLog": []
   }
 }

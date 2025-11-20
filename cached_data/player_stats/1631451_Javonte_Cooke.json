@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-18T03:52:23.823001",
+  "last_updated": "2025-11-19T17:08:44.403494",
   "player_id": 1631451,
   "player_name": "Javonte Cooke",
+  "team_abbreviation": "POR",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [],
@@ -44,5 +45,8 @@
         "DATE_EST": ""
       }
     ]
+  },
+  "game_log": {
+    "PlayerGameLog": []
   }
 }

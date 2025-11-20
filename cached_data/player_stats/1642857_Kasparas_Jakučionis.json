@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-18T05:02:54.071047",
+  "last_updated": "2025-11-19T17:12:27.425646",
   "player_id": 1642857,
   "player_name": "Kasparas Jaku\u010dionis",
+  "team_abbreviation": "MIA",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [],
@@ -44,5 +45,8 @@
         "DATE_EST": ""
       }
     ]
+  },
+  "game_log": {
+    "PlayerGameLog": []
   }
 }

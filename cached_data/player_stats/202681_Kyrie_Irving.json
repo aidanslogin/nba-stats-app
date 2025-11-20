@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-18T04:33:34.096252",
+  "last_updated": "2025-11-19T17:12:11.641100",
   "player_id": 202681,
   "player_name": "Kyrie Irving",
+  "team_abbreviation": "DAL",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [
@@ -2128,5 +2129,8 @@
         "DATE_EST": "2015-05-06T00:00:00"
       }
     ]
+  },
+  "game_log": {
+    "PlayerGameLog": []
   }
 }

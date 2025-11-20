@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-18T03:34:02.269424",
+  "last_updated": "2025-11-19T17:07:47.539431",
   "player_id": 1631288,
   "player_name": "Jamal Cain",
+  "team_abbreviation": "ORL",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [
@@ -99,9 +100,9 @@
         "TEAM_ID": 1610612753,
         "TEAM_ABBREVIATION": "ORL",
         "PLAYER_AGE": 26.0,
-        "GP": 1,
+        "GP": 2,
         "GS": 0,
-        "MIN": 0,
+        "MIN": 1,
         "FGM": 0,
         "FGA": 0,
         "FG_PCT": 0.0,
@@ -127,7 +128,7 @@
         "PLAYER_ID": 1631288,
         "LEAGUE_ID": "00",
         "TEAM_ID": 0,
-        "GP": 82,
+        "GP": 83,
         "GS": 1,
         "MIN": 1001,
         "FGM": 139,
@@ -255,29 +256,42 @@
         "PLAYER_AGE": "NR",
         "GP": "NR",
         "GS": "NR",
-        "RANK_MIN": 463,
-        "RANK_FGM": 449,
-        "RANK_FGA": 456,
+        "RANK_MIN": 470,
+        "RANK_FGM": 457,
+        "RANK_FGA": 466,
         "RANK_FG_PCT": null,
-        "RANK_FG3M": 373,
-        "RANK_FG3A": 413,
+        "RANK_FG3M": 379,
+        "RANK_FG3A": 424,
         "RANK_FG3_PCT": null,
-        "RANK_FTM": 395,
-        "RANK_FTA": 403,
+        "RANK_FTM": 410,
+        "RANK_FTA": 416,
         "RANK_FT_PCT": null,
-        "RANK_OREB": 418,
-        "RANK_DREB": 436,
-        "RANK_REB": 444,
-        "RANK_AST": 432,
-        "RANK_STL": 396,
-        "RANK_BLK": 349,
-        "RANK_TOV": 424,
-        "RANK_PTS": 451,
-        "RANK_EFF": 454
+        "RANK_OREB": 426,
+        "RANK_DREB": 444,
+        "RANK_REB": 455,
+        "RANK_AST": 439,
+        "RANK_STL": 411,
+        "RANK_BLK": 364,
+        "RANK_TOV": 432,
+        "RANK_PTS": 460,
+        "RANK_EFF": 461
       }
     ],
     "SeasonRankingsPostSeason": [],
     "SeasonHighs": [
+      {
+        "PLAYER_ID": 1631288,
+        "GAME_ID": "0022500249",
+        "GAME_DATE": "Nov 18 2025",
+        "VS_TEAM_ID": 1610612744,
+        "VS_TEAM_CITY": "Golden State",
+        "VS_TEAM_NAME": "Warriors",
+        "VS_TEAM_ABBREVIATION": "GSW",
+        "STAT": "PTS",
+        "STAT_VALUE": 0,
+        "STAT_ORDER": 1,
+        "DATE_EST": "2025-11-18T00:00:00"
+      },
       {
         "PLAYER_ID": 1631288,
         "GAME_ID": "0022500040",
@@ -290,6 +304,19 @@
         "STAT_VALUE": 0,
         "STAT_ORDER": 1,
         "DATE_EST": "2025-11-14T00:00:00"
+      },
+      {
+        "PLAYER_ID": 1631288,
+        "GAME_ID": "0022500249",
+        "GAME_DATE": "Nov 18 2025",
+        "VS_TEAM_ID": 1610612744,
+        "VS_TEAM_CITY": "Golden State",
+        "VS_TEAM_NAME": "Warriors",
+        "VS_TEAM_ABBREVIATION": "GSW",
+        "STAT": "REB",
+        "STAT_VALUE": 0,
+        "STAT_ORDER": 2,
+        "DATE_EST": "2025-11-18T00:00:00"
       },
       {
         "PLAYER_ID": 1631288,
@@ -306,6 +333,19 @@
       },
       {
         "PLAYER_ID": 1631288,
+        "GAME_ID": "0022500249",
+        "GAME_DATE": "Nov 18 2025",
+        "VS_TEAM_ID": 1610612744,
+        "VS_TEAM_CITY": "Golden State",
+        "VS_TEAM_NAME": "Warriors",
+        "VS_TEAM_ABBREVIATION": "GSW",
+        "STAT": "OREB",
+        "STAT_VALUE": 0,
+        "STAT_ORDER": 3,
+        "DATE_EST": "2025-11-18T00:00:00"
+      },
+      {
+        "PLAYER_ID": 1631288,
         "GAME_ID": "0022500040",
         "GAME_DATE": "Nov 14 2025",
         "VS_TEAM_ID": 1610612751,
@@ -316,6 +356,19 @@
         "STAT_VALUE": 0,
         "STAT_ORDER": 3,
         "DATE_EST": "2025-11-14T00:00:00"
+      },
+      {
+        "PLAYER_ID": 1631288,
+        "GAME_ID": "0022500249",
+        "GAME_DATE": "Nov 18 2025",
+        "VS_TEAM_ID": 1610612744,
+        "VS_TEAM_CITY": "Golden State",
+        "VS_TEAM_NAME": "Warriors",
+        "VS_TEAM_ABBREVIATION": "GSW",
+        "STAT": "DREB",
+        "STAT_VALUE": 0,
+        "STAT_ORDER": 4,
+        "DATE_EST": "2025-11-18T00:00:00"
       },
       {
         "PLAYER_ID": 1631288,
@@ -332,6 +385,19 @@
       },
       {
         "PLAYER_ID": 1631288,
+        "GAME_ID": "0022500249",
+        "GAME_DATE": "Nov 18 2025",
+        "VS_TEAM_ID": 1610612744,
+        "VS_TEAM_CITY": "Golden State",
+        "VS_TEAM_NAME": "Warriors",
+        "VS_TEAM_ABBREVIATION": "GSW",
+        "STAT": "AST",
+        "STAT_VALUE": 0,
+        "STAT_ORDER": 5,
+        "DATE_EST": "2025-11-18T00:00:00"
+      },
+      {
+        "PLAYER_ID": 1631288,
         "GAME_ID": "0022500040",
         "GAME_DATE": "Nov 14 2025",
         "VS_TEAM_ID": 1610612751,
@@ -342,6 +408,19 @@
         "STAT_VALUE": 0,
         "STAT_ORDER": 5,
         "DATE_EST": "2025-11-14T00:00:00"
+      },
+      {
+        "PLAYER_ID": 1631288,
+        "GAME_ID": "0022500249",
+        "GAME_DATE": "Nov 18 2025",
+        "VS_TEAM_ID": 1610612744,
+        "VS_TEAM_CITY": "Golden State",
+        "VS_TEAM_NAME": "Warriors",
+        "VS_TEAM_ABBREVIATION": "GSW",
+        "STAT": "STL",
+        "STAT_VALUE": 0,
+        "STAT_ORDER": 6,
+        "DATE_EST": "2025-11-18T00:00:00"
       },
       {
         "PLAYER_ID": 1631288,
@@ -358,6 +437,19 @@
       },
       {
         "PLAYER_ID": 1631288,
+        "GAME_ID": "0022500249",
+        "GAME_DATE": "Nov 18 2025",
+        "VS_TEAM_ID": 1610612744,
+        "VS_TEAM_CITY": "Golden State",
+        "VS_TEAM_NAME": "Warriors",
+        "VS_TEAM_ABBREVIATION": "GSW",
+        "STAT": "BLK",
+        "STAT_VALUE": 0,
+        "STAT_ORDER": 7,
+        "DATE_EST": "2025-11-18T00:00:00"
+      },
+      {
+        "PLAYER_ID": 1631288,
         "GAME_ID": "0022500040",
         "GAME_DATE": "Nov 14 2025",
         "VS_TEAM_ID": 1610612751,
@@ -368,6 +460,19 @@
         "STAT_VALUE": 0,
         "STAT_ORDER": 7,
         "DATE_EST": "2025-11-14T00:00:00"
+      },
+      {
+        "PLAYER_ID": 1631288,
+        "GAME_ID": "0022500249",
+        "GAME_DATE": "Nov 18 2025",
+        "VS_TEAM_ID": 1610612744,
+        "VS_TEAM_CITY": "Golden State",
+        "VS_TEAM_NAME": "Warriors",
+        "VS_TEAM_ABBREVIATION": "GSW",
+        "STAT": "FGM",
+        "STAT_VALUE": 0,
+        "STAT_ORDER": 8,
+        "DATE_EST": "2025-11-18T00:00:00"
       },
       {
         "PLAYER_ID": 1631288,
@@ -384,6 +489,19 @@
       },
       {
         "PLAYER_ID": 1631288,
+        "GAME_ID": "0022500249",
+        "GAME_DATE": "Nov 18 2025",
+        "VS_TEAM_ID": 1610612744,
+        "VS_TEAM_CITY": "Golden State",
+        "VS_TEAM_NAME": "Warriors",
+        "VS_TEAM_ABBREVIATION": "GSW",
+        "STAT": "FGA",
+        "STAT_VALUE": 0,
+        "STAT_ORDER": 9,
+        "DATE_EST": "2025-11-18T00:00:00"
+      },
+      {
+        "PLAYER_ID": 1631288,
         "GAME_ID": "0022500040",
         "GAME_DATE": "Nov 14 2025",
         "VS_TEAM_ID": 1610612751,
@@ -394,6 +512,19 @@
         "STAT_VALUE": 0,
         "STAT_ORDER": 9,
         "DATE_EST": "2025-11-14T00:00:00"
+      },
+      {
+        "PLAYER_ID": 1631288,
+        "GAME_ID": "0022500249",
+        "GAME_DATE": "Nov 18 2025",
+        "VS_TEAM_ID": 1610612744,
+        "VS_TEAM_CITY": "Golden State",
+        "VS_TEAM_NAME": "Warriors",
+        "VS_TEAM_ABBREVIATION": "GSW",
+        "STAT": "FG3M",
+        "STAT_VALUE": 0,
+        "STAT_ORDER": 10,
+        "DATE_EST": "2025-11-18T00:00:00"
       },
       {
         "PLAYER_ID": 1631288,
@@ -410,6 +541,19 @@
       },
       {
         "PLAYER_ID": 1631288,
+        "GAME_ID": "0022500249",
+        "GAME_DATE": "Nov 18 2025",
+        "VS_TEAM_ID": 1610612744,
+        "VS_TEAM_CITY": "Golden State",
+        "VS_TEAM_NAME": "Warriors",
+        "VS_TEAM_ABBREVIATION": "GSW",
+        "STAT": "FG3A",
+        "STAT_VALUE": 0,
+        "STAT_ORDER": 11,
+        "DATE_EST": "2025-11-18T00:00:00"
+      },
+      {
+        "PLAYER_ID": 1631288,
         "GAME_ID": "0022500040",
         "GAME_DATE": "Nov 14 2025",
         "VS_TEAM_ID": 1610612751,
@@ -423,6 +567,19 @@
       },
       {
         "PLAYER_ID": 1631288,
+        "GAME_ID": "0022500249",
+        "GAME_DATE": "Nov 18 2025",
+        "VS_TEAM_ID": 1610612744,
+        "VS_TEAM_CITY": "Golden State",
+        "VS_TEAM_NAME": "Warriors",
+        "VS_TEAM_ABBREVIATION": "GSW",
+        "STAT": "FTM",
+        "STAT_VALUE": 0,
+        "STAT_ORDER": 12,
+        "DATE_EST": "2025-11-18T00:00:00"
+      },
+      {
+        "PLAYER_ID": 1631288,
         "GAME_ID": "0022500040",
         "GAME_DATE": "Nov 14 2025",
         "VS_TEAM_ID": 1610612751,
@@ -433,6 +590,19 @@
         "STAT_VALUE": 0,
         "STAT_ORDER": 12,
         "DATE_EST": "2025-11-14T00:00:00"
+      },
+      {
+        "PLAYER_ID": 1631288,
+        "GAME_ID": "0022500249",
+        "GAME_DATE": "Nov 18 2025",
+        "VS_TEAM_ID": 1610612744,
+        "VS_TEAM_CITY": "Golden State",
+        "VS_TEAM_NAME": "Warriors",
+        "VS_TEAM_ABBREVIATION": "GSW",
+        "STAT": "FTA",
+        "STAT_VALUE": 0,
+        "STAT_ORDER": 13,
+        "DATE_EST": "2025-11-18T00:00:00"
       },
       {
         "PLAYER_ID": 1631288,
@@ -721,6 +891,68 @@
         "STAT_VALUE": 8,
         "STAT_ORDER": 13,
         "DATE_EST": "2025-04-13T00:00:00"
+      }
+    ]
+  },
+  "game_log": {
+    "PlayerGameLog": [
+      {
+        "SEASON_ID": "22025",
+        "Player_ID": 1631288,
+        "Game_ID": "0022500249",
+        "GAME_DATE": "Nov 18, 2025",
+        "MATCHUP": "ORL vs. GSW",
+        "WL": "W",
+        "MIN": 0,
+        "FGM": 0,
+        "FGA": 0,
+        "FG_PCT": 0.0,
+        "FG3M": 0,
+        "FG3A": 0,
+        "FG3_PCT": 0.0,
+        "FTM": 0,
+        "FTA": 0,
+        "FT_PCT": 0.0,
+        "OREB": 0,
+        "DREB": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TOV": 0,
+        "PF": 0,
+        "PTS": 0,
+        "PLUS_MINUS": -3,
+        "VIDEO_AVAILABLE": 1
+      },
+      {
+        "SEASON_ID": "22025",
+        "Player_ID": 1631288,
+        "Game_ID": "0022500040",
+        "GAME_DATE": "Nov 14, 2025",
+        "MATCHUP": "ORL vs. BKN",
+        "WL": "W",
+        "MIN": 0,
+        "FGM": 0,
+        "FGA": 0,
+        "FG_PCT": 0.0,
+        "FG3M": 0,
+        "FG3A": 0,
+        "FG3_PCT": 0.0,
+        "FTM": 0,
+        "FTA": 0,
+        "FT_PCT": 0.0,
+        "OREB": 0,
+        "DREB": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TOV": 0,
+        "PF": 0,
+        "PTS": 0,
+        "PLUS_MINUS": -2,
+        "VIDEO_AVAILABLE": 1
       }
     ]
   }

@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-18T09:23:45.029352",
+  "last_updated": "2025-11-19T19:57:19.392595",
   "player_id": 1630164,
   "player_name": "James Wiseman",
+  "team_abbreviation": "",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [
@@ -868,6 +869,39 @@
         "STAT_VALUE": 8,
         "STAT_ORDER": 13,
         "DATE_EST": "2020-12-22T00:00:00"
+      }
+    ]
+  },
+  "game_log": {
+    "PlayerGameLog": [
+      {
+        "SEASON_ID": "22025",
+        "Player_ID": 1630164,
+        "Game_ID": "0022500103",
+        "GAME_DATE": "Oct 25, 2025",
+        "MATCHUP": "IND @ MEM",
+        "WL": "L",
+        "MIN": 20,
+        "FGM": 2,
+        "FGA": 3,
+        "FG_PCT": 0.667,
+        "FG3M": 0,
+        "FG3A": 0,
+        "FG3_PCT": 0.0,
+        "FTM": 0,
+        "FTA": 0,
+        "FT_PCT": 0.0,
+        "OREB": 4,
+        "DREB": 0,
+        "REB": 4,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 1,
+        "TOV": 3,
+        "PF": 2,
+        "PTS": 4,
+        "PLUS_MINUS": -15,
+        "VIDEO_AVAILABLE": 1
       }
     ]
   }

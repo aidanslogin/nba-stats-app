@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-18T09:21:44.717693",
+  "last_updated": "2025-11-19T18:25:54.402347",
   "player_id": 1642050,
   "player_name": "Jackson Rowe",
+  "team_abbreviation": "GSW",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [
@@ -809,5 +810,8 @@
         "DATE_EST": "2025-02-05T00:00:00"
       }
     ]
+  },
+  "game_log": {
+    "PlayerGameLog": []
   }
 }

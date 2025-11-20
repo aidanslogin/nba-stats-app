@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-18T04:29:39.491883",
+  "last_updated": "2025-11-19T17:11:35.444561",
   "player_id": 1642935,
   "player_name": "Chucky Hepburn",
+  "team_abbreviation": "TOR",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [],
@@ -44,5 +45,8 @@
         "DATE_EST": ""
       }
     ]
+  },
+  "game_log": {
+    "PlayerGameLog": []
   }
 }

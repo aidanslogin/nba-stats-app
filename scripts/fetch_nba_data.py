@@ -8,9 +8,9 @@ from nba_api.stats.endpoints import (
     leaguedashteamstats,
     commonallplayers,
     leaguestandingsv3,
-    playercareerstats,      # FIXED: Correct endpoint name
-    playergamelog,          # FIXED: Correct endpoint name  
-    teamgamelog             # Correct endpoint name
+    playercareerstats,
+    playergamelog,
+    teamgamelog
 )
 
 from datetime import datetime
@@ -33,12 +33,10 @@ stats = {
     "start_time": datetime.now()
 }
 
-
 def create_output_dir():
     """Create cached_data directory if it doesn't exist."""
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     print(f"✓ Output directory ready: {OUTPUT_DIR}/")
-
 
 def fetch_and_save(endpoint_func, filename, **kwargs):
     """
@@ -82,13 +80,12 @@ def fetch_and_save(endpoint_func, filename, **kwargs):
         time.sleep(RATE_LIMIT_DELAY)
         return False
 
-
 def fetch_all_player_stats():
     """
-    Fetch season stats for all active players.
+    Fetch season stats AND game logs for all active players.
     Uses playercareerstats endpoint and filters for 2025-26 season.
     """
-    print("\n📊 Fetching all player season stats...")
+    print("\n📊 Fetching all player season stats and game logs...")
     
     # First get all players
     try:
@@ -123,13 +120,29 @@ def fetch_all_player_stats():
                 )
                 career_data = career_response.get_normalized_dict()
                 
+                time.sleep(RATE_LIMIT_DELAY)
+                
+                # FETCH GAME LOG FOR CURRENT SEASON
+                game_log_data = []
+                try:
+                    gamelog_response = playergamelog.PlayerGameLog(
+                        player_id=str(player_id),
+                        season=SEASON
+                    )
+                    game_log_data = gamelog_response.get_normalized_dict()
+                    print(f"    ✓ {player_name} (with game log)")
+                except Exception as gl_error:
+                    print(f"    ⚠ {player_name} (no game log: {str(gl_error)})")
+                
                 # Save to individual player file
                 output = {
                     "last_updated": datetime.now().isoformat(),
                     "player_id": player_id,
                     "player_name": player_name,
+                    "team_abbreviation": player.get('TEAM_ABBREVIATION', 'FA'),
                     "season": SEASON,
-                    "data": career_data
+                    "data": career_data,
+                    "game_log": game_log_data
                 }
                 
                 safe_name = player_name.replace(' ', '_').replace('/', '_')
@@ -138,7 +151,6 @@ def fetch_all_player_stats():
                     json.dump(output, f, indent=2)
                 
                 stats["successful_fetches"] += 1
-                print(f"    ✓ {player_name}")
                 time.sleep(RATE_LIMIT_DELAY)
                 
             except Exception as e:
@@ -150,7 +162,6 @@ def fetch_all_player_stats():
         if batch_num < total_batches:
             print(f"  Waiting {BATCH_DELAY}s before next batch...")
             time.sleep(BATCH_DELAY)
-
 
 def fetch_all_team_gamelogs():
     """
@@ -220,7 +231,6 @@ def fetch_all_team_gamelogs():
             print(f"  Waiting {BATCH_DELAY}s before next batch...")
             time.sleep(BATCH_DELAY)
 
-
 def main():
     """Main function - fetch all data."""
     
@@ -265,7 +275,6 @@ def main():
     print(f"  Failed: {stats['failed_fetches']}")
     print(f"  Time elapsed: {elapsed.total_seconds():.1f}s")
     print(f"{'='*70}\n")
-
 
 if __name__ == "__main__":
     main()

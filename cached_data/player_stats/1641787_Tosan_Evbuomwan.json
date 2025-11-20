@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-18T04:10:50.495025",
+  "last_updated": "2025-11-19T17:09:54.259408",
   "player_id": 1641787,
   "player_name": "Tosan Evbuomwan",
+  "team_abbreviation": "NYK",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [
@@ -845,5 +846,8 @@
         "DATE_EST": "2025-01-12T00:00:00"
       }
     ]
+  },
+  "game_log": {
+    "PlayerGameLog": []
   }
 }

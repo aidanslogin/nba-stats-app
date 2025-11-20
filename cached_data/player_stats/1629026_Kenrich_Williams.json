@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-18T09:23:37.968989",
+  "last_updated": "2025-11-19T19:57:06.546148",
   "player_id": 1629026,
   "player_name": "Kenrich Williams",
+  "team_abbreviation": "OKC",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [
@@ -1248,5 +1249,8 @@
         "DATE_EST": "2025-05-07T00:00:00"
       }
     ]
+  },
+  "game_log": {
+    "PlayerGameLog": []
   }
 }

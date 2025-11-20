@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-18T04:01:35.066118",
+  "last_updated": "2025-11-19T17:09:16.761629",
   "player_id": 1630621,
   "player_name": "Hunter Dickinson",
+  "team_abbreviation": "NOP",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [
@@ -500,6 +501,39 @@
         "STAT_VALUE": 0,
         "STAT_ORDER": 13,
         "DATE_EST": "2025-10-22T00:00:00"
+      }
+    ]
+  },
+  "game_log": {
+    "PlayerGameLog": [
+      {
+        "SEASON_ID": "22025",
+        "Player_ID": 1630621,
+        "Game_ID": "0022500085",
+        "GAME_DATE": "Oct 22, 2025",
+        "MATCHUP": "NOP @ MEM",
+        "WL": "L",
+        "MIN": 5,
+        "FGM": 1,
+        "FGA": 2,
+        "FG_PCT": 0.5,
+        "FG3M": 0,
+        "FG3A": 0,
+        "FG3_PCT": 0.0,
+        "FTM": 0,
+        "FTA": 0,
+        "FT_PCT": 0.0,
+        "OREB": 0,
+        "DREB": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 1,
+        "TOV": 2,
+        "PF": 2,
+        "PTS": 2,
+        "PLUS_MINUS": -12,
+        "VIDEO_AVAILABLE": 1
       }
     ]
   }

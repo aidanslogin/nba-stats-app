@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-18T09:21:40.234646",
+  "last_updated": "2025-11-19T18:25:47.667831",
   "player_id": 1631115,
   "player_name": "Orlando Robinson",
+  "team_abbreviation": "ORL",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [
@@ -1033,6 +1034,39 @@
         "STAT_VALUE": 8,
         "STAT_ORDER": 13,
         "DATE_EST": "2025-03-14T00:00:00"
+      }
+    ]
+  },
+  "game_log": {
+    "PlayerGameLog": [
+      {
+        "SEASON_ID": "22025",
+        "Player_ID": 1631115,
+        "Game_ID": "0022500138",
+        "GAME_DATE": "Oct 30, 2025",
+        "MATCHUP": "ORL @ CHA",
+        "WL": "W",
+        "MIN": 2,
+        "FGM": 0,
+        "FGA": 0,
+        "FG_PCT": 0.0,
+        "FG3M": 0,
+        "FG3A": 0,
+        "FG3_PCT": 0.0,
+        "FTM": 0,
+        "FTA": 0,
+        "FT_PCT": 0.0,
+        "OREB": 0,
+        "DREB": 0,
+        "REB": 0,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TOV": 0,
+        "PF": 1,
+        "PTS": 0,
+        "PLUS_MINUS": -2,
+        "VIDEO_AVAILABLE": 1
       }
     ]
   }

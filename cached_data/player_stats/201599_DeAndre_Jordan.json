@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-18T06:04:14.275987",
+  "last_updated": "2025-11-19T17:13:11.955466",
   "player_id": 201599,
   "player_name": "DeAndre Jordan",
+  "team_abbreviation": "NOP",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [
@@ -2645,6 +2646,68 @@
         "STAT_VALUE": 34,
         "STAT_ORDER": 13,
         "DATE_EST": "2015-11-30T00:00:00"
+      }
+    ]
+  },
+  "game_log": {
+    "PlayerGameLog": [
+      {
+        "SEASON_ID": "22025",
+        "Player_ID": 201599,
+        "Game_ID": "0022500134",
+        "GAME_DATE": "Oct 29, 2025",
+        "MATCHUP": "NOP @ DEN",
+        "WL": "L",
+        "MIN": 12,
+        "FGM": 1,
+        "FGA": 1,
+        "FG_PCT": 1.0,
+        "FG3M": 0,
+        "FG3A": 0,
+        "FG3_PCT": 0.0,
+        "FTM": 0,
+        "FTA": 0,
+        "FT_PCT": 0.0,
+        "OREB": 3,
+        "DREB": 2,
+        "REB": 5,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TOV": 1,
+        "PF": 0,
+        "PTS": 2,
+        "PLUS_MINUS": -21,
+        "VIDEO_AVAILABLE": 1
+      },
+      {
+        "SEASON_ID": "22025",
+        "Player_ID": 201599,
+        "Game_ID": "0022500117",
+        "GAME_DATE": "Oct 27, 2025",
+        "MATCHUP": "NOP vs. BOS",
+        "WL": "L",
+        "MIN": 11,
+        "FGM": 3,
+        "FGA": 4,
+        "FG_PCT": 0.75,
+        "FG3M": 0,
+        "FG3A": 0,
+        "FG3_PCT": 0.0,
+        "FTM": 1,
+        "FTA": 2,
+        "FT_PCT": 0.5,
+        "OREB": 1,
+        "DREB": 4,
+        "REB": 5,
+        "AST": 0,
+        "STL": 0,
+        "BLK": 0,
+        "TOV": 0,
+        "PF": 1,
+        "PTS": 7,
+        "PLUS_MINUS": -5,
+        "VIDEO_AVAILABLE": 1
       }
     ]
   }

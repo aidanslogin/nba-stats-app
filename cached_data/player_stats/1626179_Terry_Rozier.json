@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-18T09:21:45.471608",
+  "last_updated": "2025-11-19T18:25:56.070563",
   "player_id": 1626179,
   "player_name": "Terry Rozier",
+  "team_abbreviation": "MIA",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [
@@ -1632,5 +1633,8 @@
         "DATE_EST": "2019-11-23T00:00:00"
       }
     ]
+  },
+  "game_log": {
+    "PlayerGameLog": []
   }
 }

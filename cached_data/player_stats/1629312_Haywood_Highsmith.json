@@ -1,7 +1,8 @@
 {
-  "last_updated": "2025-11-18T04:33:14.458678",
+  "last_updated": "2025-11-19T17:11:39.918082",
   "player_id": 1629312,
   "player_name": "Haywood Highsmith",
+  "team_abbreviation": "BKN",
   "season": "2025-26",
   "data": {
     "SeasonTotalsRegularSeason": [
@@ -1172,5 +1173,8 @@
         "DATE_EST": "2023-04-22T00:00:00"
       }
     ]
+  },
+  "game_log": {
+    "PlayerGameLog": []
   }
 }
