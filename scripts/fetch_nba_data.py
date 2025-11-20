@@ -9,11 +9,20 @@ import json
 import os
 import time
 
-# SET TIMEOUT FIRST - before importing endpoints
-from nba_api.stats.library.http import NBAStatsHTTP
-NBAStatsHTTP.timeout = 120  # Increase from 30 to 120 seconds
+# AGGRESSIVE TIMEOUT FIX: Monkey-patch the nba_api internal request method
+import nba_api.stats.library.http as nba_http
 
-# NOW import endpoints (after timeout is set)
+# Store original method
+_original_send = nba_http.NBAStatsHTTP._send_api_request
+
+# Create patched version with longer timeout
+def _patched_send(self, endpoint, parameters, referer=None, proxy=None, headers=None, timeout=120):
+    return _original_send(self, endpoint, parameters, referer=referer, proxy=proxy, headers=headers, timeout=timeout)
+
+# Apply the patch
+nba_http.NBAStatsHTTP._send_api_request = _patched_send
+
+# NOW import endpoints (after patch is applied)
 from nba_api.stats.endpoints import (
     leaguedashteamstats,
     commonallplayers,
